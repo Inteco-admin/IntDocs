@@ -1,0 +1,43 @@
+{
+  "name": "intdocs",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "copy-html-entry": "cp ../erpnext/public/intdocs/index.html ../erpnext/www/intdocs.html"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.13.6",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@xeokit/xeokit-sdk": "^2.3.0-beta-7",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "mitt": "^3.0.0",
+    "moment": "^2.29.4",
+    "pinia": "^2.0.14",
+    "quasar": "^2.6.6",
+    "socket.io-client": "^2.4.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.4",
+    "vite-compression-plugin": "^0.0.3",
+    "vue": "^3.2.25",
+    "vue-cookie": "^1.1.4",
+    "vue-cookies": "^1.8.1",
+    "vue-easy-lightbox": "^1.7.1",
+    "vue-router": "^4",
+    "vue3-treeselect": "^0.1.10"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.0.9",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.12",
+    "sass": "1.32.0",
+    "tailwindcss": "^3.0.24",
+    "terser": "^5.15.1",
+    "vite": "^2.9.5",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}

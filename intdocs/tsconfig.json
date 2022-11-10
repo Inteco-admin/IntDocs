@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "isolatedModules": true,
+    // использование более строгого вывода типов для свойств данных в `this`
+    // "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "noImplicitThis": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "postcss.config.js",
+    "./public/assets/**",
+    "./src/components/XKTViewer/xeohelper.js",
+    "./src/main.js"
+  ]
+}

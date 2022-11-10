@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+body {
+  height: 100vh;
+
+  font-size: 12px;
+  background-color: #fafafa;
+  font-family: 'Mulish', sans-serif !important;
+}
+
+.flex {
+  flex-wrap: nowrap !important;
+}
